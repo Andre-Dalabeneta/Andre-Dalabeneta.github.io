@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meu primeiro Bootstrap</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="jumbotron bg-info">
+   <h1 class="text-light text-center">Alo HA Mundo!</h1>
+</div>
+
+<h2 class="text-center ">Carrosel</h2>
+<!--Inicio do Carrosel -->
+<div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <img src="imagens/issae.jpg" class="d-block w-100" alt="lago" >
+       <div class="carousel-caption d-none d-md-block">
+       <h5>rede possívelmente na Europa</h5>
+       <p>Vista boa para lembrar como o senai é maravilhoso</p>
+       </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/pasto.jpg" class="d-block w-100" alt="pasto" >
+        <div class="carousel-caption d-none d-md-block">
+        <h5>lagoa de Burgues</h5>
+        <p>Tudo PhotoShop só fosse real estaria na internet</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/trilho.jpg" class="d-block w-100" alt="trilho">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Geleira de Burgues</h5>
+        <p>Preço é mó grandão </p>
+        </div>
+        </div>
+       </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próxima</span>
+    </a>
+  </div>
+</div>
+   <!--Fim do Carrosel -->
+
+   <div class="container">
+   <h2>Colunas</h2>
+
+   <!-- linha -->
+   <div class="row">
+
+   <div class="col">
+    <div class="collapse" id="col">
+        <h3 class="text-center">Coluna 1</h3>
+        <p>Texto para coluna 1.</p>
+        <img src="imagens/issae.jpg" class="img-fluid rounded"> 
+      </div>
+      <button
+      data-target="#col"
+      data-toggle="collapse"
+       class="btn btn-success">Mostrar</button>  
+   </div>
+
+   <div class="col">
+    <div class="collapse" id="col2">
+       <h3 class="text-center">Coluna 2</h3>
+       <p>Texto para coluna 2.</p>
+       <img src="imagens/pasto.jpg" class="img-fluid rounded">
+       </div>
+       <button
+      data-target="#col2"
+      data-toggle="collapse"
+       class="btn btn-success">Mostrar</button> 
+   </div>
+
+   <div class="col">
+    <div class="collapse" id="col3">
+       <h3 class="text-center">Coluna 3</h3>
+       <p>Texto para coluna 3.</p>
+       <img src="imagens/trilho.jpg" class="img-fluid rounded">
+       </div>
+       <button
+      data-target="#col3"
+      data-toggle="collapse"
+       class="btn btn-success">Mostrar</button> 
+   </div>
+
+   </div><!-- Fim da Row -->
+   </div><!-- Fim Container -->
+
+ <div class=" alert alert-warning"><!--inicio alert -->
+
+    <h2>Collapse</h2>
+
+    <div id="escondidinho" class="collapse">
+    <p class=" alaert alert-danger">
+    <p>Aparece e Desaparece</p>
+    </div>
+    <button data-toggle="collapse" data-target="#escondidinho">Mostrar</button>
+
+    </div><!-- Fim alert -->
+
+
+
+   
+<!-- Javascript para para Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
