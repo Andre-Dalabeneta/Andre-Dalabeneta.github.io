@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+  }
+  footer{
+    background-color:black;
+    color:white;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background-image: url(imagens/opa.jpg);background-size: 100%;">
+  <h1>27° Festa Bergamasca</h1>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Página inicial</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#alo">História</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#oi">Programação</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#danca">Dança típica</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Convite</h2>
+      <h5></h5>
+      <div class="fakeimg">
+        <img src="imagens/eita.jpg" class="fakeimg">
+      </div>
+      <h3>Alguns Links</h3>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="http://turismo.sc.gov.br/atividade/festas-tipicas/">Site de turismo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.festabergamasca.com.br/">Festa bergamasca</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://omunicipio.com.br/cinco-motivos-para-visitar-27a-festa-bergamasca-em-botuvera/">Motivos para visitar a festa</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>Festa Bergamasca</h2>
+      <h5 id="alo">História</h5>
+      <div class="fakeimg"><img src="imagens/brasao.jpg"></div>
+      <p>No mês de junho Botuverá estará em festa. Vem aí a 27ª edição da Festa Bergamasca. Criada em 1992, a festa tem como principal objetivo dar vigor às tradições ítalo-bergamascas e se consagra por reunir todas as gerações ao redor da farta mesa com pratos típicos, música ao vivo e muita alegria. Uma cultura muito importante e que ainda persiste, principalmente com agricultores da localidade de Lageado Alto e Baixo, é a vinicultura. A produção de queijo ou queijinho pela maioria dos agricultores também se destaca em Botuverá. </p>
+      <br>
+      <h2 id="oi">Programação</h2>
+      <div class="fakeimg"><img src="imagens/ale.jpg" class="fakeimg"></div>
+    <h5>07/06/2019 – sexta- feira<br></h5>
+    <p> 
+      18:00 - Santa missa (Igreja Matriz São José);<br>
+      19:30 - Abertura oficial da 27ª Festa Bergamasca (pavilhão principal);<br>
+      20:30 - Apresentação dos grupos de danças folclóricas;<br>
+      21:00 - Tombamento e degustação da polenta gigante Amici Della Polenta;<br>
+      22:00 - Escolha da Rainha da 27ª Festa Bergamasca;<br>
+      23:00 - Baile com o Grupo Legião Gaúcha (pavilhão principal).</p>
+    <h5>08/06/2019 – sábado<br></h5>
+    <p> 
+      14:00 - Encontro de apicultores e de meliponicultores. Local: Câmara de Vereadores de Botuverá. (com prévia inscrição)<br>
+      18:00 - Santa missa (Igreja Matriz São José);<br>
+      19:30 - Apresentação de grupos de danças folclóricas (pavilhão principal);<br>
+      21:30 - Animação com a banda Ragazzi Dei Monti (pavilhão cultural);<br>
+      22:30 - Show de Carlos Magrão e Banda (pavilhão principal).</p>
+    <h5>09/06/2019 – domingo<br></h5>
+    <p> 
+      10:00 - Santa missa rezada no dialeto ítalo-bergamasco e animada pelo Coral Giuseppe Verdi (Igreja Matriz São José);<br>
+      12:00 - Apresentação do Grupo de Canto Cantando com Cristo (pavilhão cultural);<br>
+      12:30 - Apresentação do Coral Giuseppe Verdi;<br>
+      13:30 - Atração com o humorista Chameguinho Pancho;<br>
+      14:30 - Animação com a Banda Ragazzi Dei Monti (pavilhão cultural);<br>
+      15:00 - Banda Incandescente (pavilhão principal).</p>
+    </div>
+    <h5 id="danca">Dança típica</h5>
+    <br>
+
+      <iframe style="display: block; margin: 50px;" 
+       width="560" height="315" src="https://www.youtube.com/embed/_htg0JWTtdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+    <footer>
+      <p>&copy; André Luis Dalabeneta 2019</p>
+    </footer>
+
+</body>
+</html>
